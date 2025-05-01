@@ -8,10 +8,16 @@
         <version>3.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <modules>
+        <module>mock-news-feed</module>
+        <module>news-analyzer</module>
+    </modules>
     <groupId>com</groupId>
     <artifactId>newsfeed</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>newsfeed</name>
+    <packaging>pom</packaging>
     <description>newsfeed</description>
     <url/>
     <licenses>
